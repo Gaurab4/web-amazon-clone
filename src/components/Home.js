@@ -1,16 +1,14 @@
 import React from 'react'
 import "./Home.css"
 import Items from './Items';
+import Backimage from './Backimage';
 
 
 
 function Home() {
     return (
         <div className="home">
-            <img 
-            className="home_image"
-             src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-              alt="" />
+        <Backimage/>
         <Items/>
         </div>
     )

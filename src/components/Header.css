@@ -20,9 +20,11 @@
 
 .header_optionBasket{
     display: flex;
-    margin-right: 10px;
+    /* margin-top: 5px; */
+    margin-right: 20px;
     margin-left: 10px;
     align-items: center;
+    
 }
 
 .header_nav{
@@ -34,7 +36,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 9px;
 }
 .header_optionLineTwo{
     font-size: 13px;
@@ -56,10 +58,13 @@
     padding: 10px;
     border: none;
     width: 100%;
+    border-radius: 10px;
 }
 
 .header_searchIcon  {
     padding: 5px;
     height: 22px !important ;
- background-color:#cd9042;
+ background-color: rgb(19,25,33);
+ color: honeydew;
+ border-radius: 5px;
 }
